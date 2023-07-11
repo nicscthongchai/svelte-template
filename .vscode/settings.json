@@ -1,8 +1,0 @@
-{
-	"css.customData": [".vscode/css_custom_rules.json"],
-	"[svelte]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"prettier.documentSelectors": ["**/*.svelte"],
-	"eslint.validate": ["javascript", "typescript", "svelte"]
-}
