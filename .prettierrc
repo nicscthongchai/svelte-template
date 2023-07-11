@@ -1,0 +1,37 @@
+{
+	"useTabs": true,
+	"singleQuote": true,
+	"trailingComma": "none",
+	"printWidth": 100,
+	"plugins": [
+		"@trivago/prettier-plugin-sort-imports",
+		"prettier-plugin-svelte",
+		"prettier-plugin-tailwindcss"
+	],
+	"pluginSearchDirs": ["."],
+	"overrides": [{ "files": "*.svelte", "options": { "parser": "svelte" } }],
+	"svelteStrictMode": true,
+	"tailwindFunctions": ["twMerge", "twJoin"],
+	"importOrder": [
+		"^ui(.*)$",
+		"^(src/)?abi(.*)$",
+		"^(src/)?component(s)?(.*)$",
+		"^(src/)?constant(s)?(.*)$",
+		"^(src/)?container(s)?(.*)$",
+		"^(src/)?context(s)?(.*)$",
+		"^(src/)?hook(s)?(.*)$",
+		"^next(.*)$",
+		"^(src/)?page(s)?(.*)$",
+		"^(src/)?public(.*)$",
+		"^(src/)?recoil(.*)$",
+		"^(src/)?route(s)?(.*)$",
+		"^(src/)?subscriber(s)?(.*)$",
+		"^(src/)?type(s)?(.*)$",
+		"^(src/)?util(s)?(.*)$",
+		"^(~)?[./]",
+		"(.css|.scss)$"
+	],
+	"importOrderSeparation": false,
+	"importOrderSortSpecifiers": true,
+	"importOrderGroupNamespaceSpecifiers": true
+}

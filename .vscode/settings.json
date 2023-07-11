@@ -1,0 +1,5 @@
+{
+	"css.customData": [".vscode/tailwind_css_rules.json"],
+	"eslint.validate": ["javascript", "javascriptreact", "typescript", "svelte"],
+	"prettier.documentSelectors": ["**/*.svelte"]
+}
